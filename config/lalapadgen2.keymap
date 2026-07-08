@@ -82,6 +82,16 @@
             bindings = <&mkp MB5>;
             key-positions = <2 3>;
         };
+
+        ctrl-z {
+            bindings = <&kp LC(Z)>;
+            key-positions = <21 22>;
+        };
+
+        ctrl-y {
+            bindings = <&kp LC(Y)>;
+            key-positions = <22 23>;
+        };
     };
 
     keymap {
